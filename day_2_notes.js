@@ -53,3 +53,13 @@ console.log(myNum + myStr); //concatenates int with the string and turns it into
 
 // To view the commit:
 // git log (Shows us commit hash, branch name, commit message, and other metadata)
+
+// Go to GitHub.com and click Create Repository
+// Name our repository, make sure to leave it public and keep all other options deselected
+// Click "create repository"
+// Copy the HTTPS url provided (one that ends with .git)
+// Go back to VSCode
+// Link your local repository with remote repository by typing:
+//      git remote add origin <paste and link>
+//      To push to remote repository
+//      git push origin master
